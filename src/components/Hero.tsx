@@ -17,7 +17,7 @@ export const Hero: React.FC = () => {
     // alert('Resume download triggered. (Placeholder)');
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/uc?export=download&id=1vPmFP7UZ-NML6A7jHjtb_u4bVGCX5OI4";
+      "https://drive.google.com/uc?export=download&id=13_g-CJyGhmMOxAvcIbkQCxk1p3Mmu49-";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
