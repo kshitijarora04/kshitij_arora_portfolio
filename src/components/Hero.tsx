@@ -17,7 +17,7 @@ export const Hero: React.FC = () => {
     // alert('Resume download triggered. (Placeholder)');
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/uc?export=download&id=1H6eKE0L2e-nuUxB_c4pXUDxHFvBZbkyE";
+      "https://drive.google.com/uc?export=download&id=1vPmFP7UZ-NML6A7jHjtb_u4bVGCX5OI4";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -70,6 +70,22 @@ export const Hero: React.FC = () => {
         >
           {basics.summary.split(".")[0]}. {basics.summary.split(".")[1]}.
         </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.55 }}
+          className="flex flex-col sm:flex-row gap-6 text-slate-400 mb-10"
+        >
+          <a
+            href={`mailto:${basics.email}`}
+            className="flex items-center gap-2 hover:text-indigo-400 transition-colors"
+          >
+            <span className="flex items-center gap-2">📧 {basics.email}</span>
+          </a>
+
+          <span className="flex items-center gap-2">📱 {basics.phone}</span>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}
