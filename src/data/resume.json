@@ -1,0 +1,127 @@
+{
+  "basics": {
+    "name": "Kshitij Arora",
+    "title": "Associate System Engineer at IBM India | Aspiring SDE",
+    "summary": "Aspiring Software Development Engineer (SDE) with 1.5 years of full-time experience at IBM as an Associate System Engineer (ASE). Strong foundation in data structures and algorithms, full-stack web development, and problem-solving, with hands-on experience building React.js and Node.js applications, developing REST APIs, and maintaining enterprise systems. Actively seeking an SDE role to design and develop scalable, high-performance software solutions. A computer science undergraduate with a passion for continuous learning and problem-solving. Currently open to new opportunities where I can apply my expertise to drive innovation and make a positive impact.",
+    "location": "Noida, Uttar Pradesh, India",
+    "email": "kshitijarora04@gmail.com",
+    "phone": "",
+    "links": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kshitij-arora-326724241"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "IBM India",
+      "role": "Associate System Engineer",
+      "dates": "June 2024 - Present",
+      "location": "Noida, Uttar Pradesh, India",
+      "bullets": [
+        "Developed and enhanced responsive frontend components using React.js for an internal enterprise application, improving usability and performance.",
+        "Worked across Cloud, On-Premises, and RISE SAP environments, gaining exposure to large-scale enterprise infrastructure.",
+        "Collaborated with cross-functional teams in the SAP Basis domain to resolve technical incidents, ensuring reliable system integration, high availability, and improved user satisfaction.",
+        "Performed monthly AWS maintenance tag changes via Terraform for planned downtime and patching."
+      ]
+    },
+    {
+      "company": "IBM India",
+      "role": "Project Intern",
+      "dates": "January - June 2024",
+      "location": "Kolkata, West Bengal",
+      "bullets": [
+        "Executed SAP Basis administrative tasks, including system monitoring, user management, and transport support.",
+        "Gained hands-on experience in production and non-production SAP system support."
+      ]
+    },
+    {
+      "company": "Celebal Technologies",
+      "role": "Summer Intern",
+      "dates": "May - July 2023",
+      "location": "Remote",
+      "bullets": [
+        "Managed relational databases using MySQL and SQL Server (SSMS), developing optimized SQL queries for data analysis, manipulation, and efficient database design."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "150+ Questions Solved",
+      "context": "Solved 150+ Questions on Online Platforms like Leetcode, GeeksforGeeks etc."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Leetlab",
+      "stack": ["PostgreSQL", "Express.js", "React.js", "Node.js"],
+      "bullets": [
+        "Built a LeetCode-like coding platform using React.js, Node.js, Express.js, and PostgreSQL.",
+        "Implemented secure user authentication and authorization using JWT and cookies, and designed RESTful APIs to integrate frontend and backend services.",
+        "Developed an in-browser code editor using Monaco Editor with syntax highlighting and real-time code execution for an enhanced user experience."
+      ],
+      "links": ["https://leetlab-kshitij.vercel.app/login"]
+    },
+    {
+      "title": "Quick Sign",
+      "stack": ["HTML", "CSS", "Javascript"],
+      "bullets": [
+        "Developed a web application for creating and saving digital signatures using HTML, CSS, and JavaScript, with export support as .jpg images.",
+        "Implemented client-side data persistence using browser localStorage, enabling secure reuse without backend dependency."
+      ],
+      "links": ["https://quick-sign-beta.vercel.app/"]
+    }
+  ],
+  "skills": [
+    {
+      "group": "Programming Languages",
+      "items": ["C++", "Javascript", "Java(Basic)"]
+    },
+    {
+      "group": "Web Technologies",
+      "items": [
+        "HTML",
+        "CSS",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "Bootstrap (Framework)"
+      ]
+    },
+    {
+      "group": "Core CS Concepts",
+      "items": [
+        "Data Structures & Algorithms",
+        "Object-Oriented Programming",
+        "Operating Systems",
+        "Database Management Systems"
+      ]
+    },
+    {
+      "group": "Tools & Platforms",
+      "items": ["Git", "GitHub", "VS Code", "ServiceNow"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Kalinga Institute of Industrial Technology (KiiT University)",
+      "degree": "Bachelor of Technology in Computer Science",
+      "dates": "2020 - 2024",
+      "location": "Bhubaneswar, Odisha",
+      "details": "CGPA: 8.46/10"
+    }
+  ],
+  "certifications": [
+    "AWS Certified Cloud Practitioner",
+    "Hackerrank Problem Solving Intermediate",
+    "Hackerrank SQL Basic",
+    "Problem Solving (Basic)",
+    "Aws Academy Graduate-Aws Academy Introduction To Cloud Semester 1"
+  ],
+  "awards": [],
+  "extra": []
+}
